@@ -1,0 +1,12 @@
+
+body {
+    margin: 0px;
+
+}
+
+.hero-section {
+    background-image: url('./image-assets/heroimg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
