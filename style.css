@@ -1,7 +1,8 @@
 
 body {
-    margin: 0px;
-
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-optical-sizing: auto;
 }
 
 .hero-section {
@@ -9,4 +10,13 @@ body {
     background-size: cover;
     background-position: center;
     height: 100vh;
+}
+
+.info-section {
+    background-color: #f2f5f2;
+}
+
+.placeholder {
+    height: 250px;
+    width: 250px;
 }

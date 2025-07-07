@@ -6,36 +6,109 @@
     <title>Landing Page</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" type="image/x-icon" href="./image-assets/favicon.png">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <section class="hero-section">
-        <header>
-            <div class="logo">
-                <img id="main-logo-img" src="./image-assets/teamapp.svg" alt="team app logo" draggable="false">
-            </div>
-            <nav>
-                <a href="">Company</a>
-                <a href="">Products</a>
-                <a href="">Blog</a>
-                <a href="">Get Access</a>
-            </nav>
-        </header>
-        <div class="main-container">
-            <div class="text-wrapper">
-                <h1>Instant Collaboration for Remote Teams</h1>
-                <p>All-in-one place to streamline collaboration, communication and productivity.</p>
-                <form class="email-form" action="/submit" method="post">
-                    <input type="email" id="email" name="email" placeholder="Email" required>
-                    <button type="submit">Get Early Access</button>
-                </form>
-            </div>
-        </div>
-    </section>
 
-    <section class="info-section">
-        
-    </section>
+    <main>
+        <section class="hero-section">
+            <header>
+                <div class="logo">
+                    <img id="main-logo-img" src="./image-assets/teamapp.svg" alt="team app logo" draggable="false">
+                </div>
+                <nav>
+                    <a href="#">Company</a>
+                    <a href="#">Products</a>
+                    <a href="#">Blog</a>
+                    <button class="get-acces-btn">Get Access</button>
+                </nav>
+            </header>
+            <div class="main-container">
+                <div class="text-wrapper">
+                    <h1>Instant Collaboration for Remote Teams</h1>
+                    <p>All-in-one place to streamline collaboration, communication and productivity.</p>
+                    <form class="email-form" action="/submit" method="post">
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                        <button type="submit">Get Early Access</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    
+        <section class="info-section">
+            <div class="section-two">
+                <div class="heading">Some Random Info</div>
+                <div class="card-container">
+                    <div class="card">
+                        <div class="img-container placeholder">
+                            <img class="hub" src="./image-assets/3922.jpg" alt="tree logo">
+                        </div>
+                        <div class="card-title">Your hub for teamwork</div>
+                        <div class="card-description">In Team App, you will get all the tools you need to collaborate
+                            seamlessly in one place. From task management and real-time communication to file sharing and
+                            progress tracking. Stay connected, organized, and productive — every step of the way!</div>
+                        <a class="learn-more" href="#">
+                            Learn more <img src="./image-assets/arrow.svg" alt="arrow icon">
+                        </a>
+                    </div>
+    
+                    <div class="card">
+                        <div class="img-container placeholder">
+                            <img class="task" src="./image-assets/7063226.jpg" alt="digital image">
+                        </div>
+                        <div class="card-title">Simple task management</div>
+                        <div class="card-description">Team App helps to organize, prioritize, and track tasks seamlessly in
+                            real time. With features like deadline tracking, progress updates, and collaborative tools, your
+                            team can stay aligned and focused on what's important.</div>
+                        <a class="learn-more" href="#">
+                            Learn more <img src="./image-assets/arrow.svg" alt="arrow icon">
+                        </a>
+                    </div>
+    
+                    <div class="card">
+                        <div class="img-container placeholder">
+                            <img class="schedule" src="./image-assets/8011882.jpg" alt="schedule logo">
+                        </div>
+                        <div class="card-title">Scheduling that actually works</div>
+                        <div class="card-description">Stay on top of your team's schedule with our intuitive scheduling and
+                            organization tools. Our app allows you to easily plan meetings, set deadlines, and allocate
+                            tasks, ensuring everyone knows what's coming up and when.</div>
+                        <a class="learn-more" href="#">
+                            Learn more <img src="./image-assets/arrow.svg" alt="arrow icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="quote-section">
+                <div class="quote-container">
+                    <div class="testimony">This app has completely transformed how our team collaborates. The task
+                        management tools are intuitive, and the built-in chat keeps communication seamless. Additionally,
+                        the UI is impeccable, and real-time updates keep everyone in sync. Highly recommended for remote
+                        teams!</div>
+                    <div class="name-info">Alex Murray</div>
+                    <div class="avatar-placeholder">
+                        <img src="./image-assets/avatar.png" alt="avatar image">
+                    </div>
+                </div>
+            </div>
+    
+            <div class="cta-section">
+                <div class="cta-text">
+                    <span>Ready to Collaborate?</span>
+                    <p class="cta-p">The customer support is prompt and helpful!</p>
+                </div>
+                <button onclick="window.location.href='https://youtu.be/K2y_Z2JwV4M?si=W4z69a1h95hRLUCK';"
+                    class="sign-up">Sign Up</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        © Copyright TeamApp Inc. 2025
+    </footer>
 </body>
 </html>
