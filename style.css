@@ -1,15 +1,23 @@
 
 body {
     margin: 0;
+    padding: 0;
+    overflow-x: hidden;
     font-family: 'Montserrat', sans-serif;
     font-optical-sizing: auto;
+    box-sizing: border-box;
 }
 
 .hero-section {
     background-image: url('./image-assets/heroimg.jpg');
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    min-height: 800px;
+}
+
+.hero-container {
+    padding: 0 60px;
+    max-width: 100%;
 }
 
 header {
@@ -17,7 +25,6 @@ header {
     justify-content: space-between;
     padding-top: 25px; 
     align-items: center;
-    flex-shrink: 0;
 }
 
 nav {
@@ -41,6 +48,13 @@ a {
     border-radius: 5px;
     border-style: none;
     background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease-out;
+}
+
+.get-access-btn:hover {
+    background-color: #9a1558;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .main-container {
@@ -94,11 +108,16 @@ p {
     border-style: none;
     color: white;
     font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-out;
+}
+
+.submit-btn:hover {
+    background-color: rgba(154, 21, 88, 0.8);
 }
 
 .info-section {
     background-color: #f2f5f2;
-    padding: 60px 60px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -108,7 +127,7 @@ p {
     font-size: 32px;
     font-weight: 700;
     color: #9a1558;
-    margin-bottom:  30px;
+    margin: 40px 0 30px 0;
 }
 
 .section-two {
@@ -141,11 +160,20 @@ p {
 
 .img-container {
     width: 300px;
-    height: 300px;  
+    height: 300px;
+    border-style: none;  
+    border-radius: 12px;
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
 }
 
+.img-container:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(214, 6, 6, 0.15);
+    background-color: #9a1558;
+} 
+
 .hub, .task, .schedule {
-  border-radius: 12px;
+    border-radius: 12px;
 }
 
 .learn-more {
@@ -176,7 +204,6 @@ p {
     margin-right: calc(-50vw + 50%);
     height: 240px;
     background-color: #e9d9c3;
-
 }
 
 .quote-container {
@@ -191,11 +218,11 @@ p {
     font-size: 18px;
 }
 .avatar-placeholder {
-   display: inline-flex;
-   align-items: center;
-   color: #a2845e;
-   gap: 15px;
-   margin-left: auto;
+    display: inline-flex;
+    align-items: center;
+    color: #a2845e;
+    gap: 15px;
+    margin-left: auto;
 }
 
 .avatar-placeholder img {
@@ -205,7 +232,7 @@ p {
 }
 
 .cta-section {
-    margin-top: 60px;
+    margin: 60px 0;
     background-color: #9a1558;
     width: 800px;
     height: 100px;
@@ -237,7 +264,14 @@ p {
     border-radius: 5px;
     border-style: none;
     background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease-out;
 }
+
+.sign-up:hover {
+    background-color: #a2845e;
+}
+
 
 footer {
     background-color: #999;
