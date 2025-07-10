@@ -24,4 +24,4 @@ Even though progress I felt slow at times, i could get the desired result even b
 
 Next steps: add responsiveness with media queries, refine it even more and possibly introduce simple JavaScript interactions.
 
-All image was downloaded from pexels.com and logos were downloaded from freepik.com https://www.freepik.com/search?format=search&last_filter=query&last_value=hub&query=hub&type=vector)
+Hero-section image was downloaded from pexels.com and logos were downloaded from freepik.com https://www.freepik.com/search?format=search&last_filter=query&last_value=hub&query=hub&type=vector)
