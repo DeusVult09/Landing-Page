@@ -23,3 +23,5 @@ All in all, it was an extremely useful anf fun project to do. At the beginning i
 Even though progress I felt slow at times, i could get the desired result even better than i expected. I'm proud of how clean and readable the final structure looks like now.
 
 Next steps: add responsiveness with media queries, refine it even more and possibly introduce simple JavaScript interactions.
+
+All image was downloaded from pexels.com and logos were downloaded from freepik.com https://www.freepik.com/search?format=search&last_filter=query&last_value=hub&query=hub&type=vector)
